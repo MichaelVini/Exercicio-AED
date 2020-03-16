@@ -49,9 +49,3 @@ void mostrar (int x, struct aluno *lista){
         printf("--------------\n");
     }    
 }
-/* void aloca (int n, struct aluno *lista){
-    for(int i = 0;i<n;i++){
-        lista[i] = (struct aluno *) malloc (sizeof(struct aluno));
-    }
-}
-*/
