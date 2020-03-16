@@ -49,11 +49,11 @@ int main (void){
 
     aloca(n, listaAlunos);
 
-    leitura (n, &listaAlunos);
+    leitura (n, *listaAlunos);
 
     printf ("Digite posicao do vetor que deseja saber as informacoes do aluno ou digite -1 para mostrar os dados de todos os alunos: \n");
     scanf("%i",&x);
-    mostrar (x,listaAlunos);
+    mostrar (x, *listaAlunos);
 
     
 
